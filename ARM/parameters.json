@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "161799b1-92dc-4ade-b381-6fc9c6b81a94"
+        },
+        "resourceGroupName": {
+            "value": "kk"
+        },
+        "name": {
+            "value": "webpom"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-kk-a8f1"
+        },
+        "serverFarmResourceGroup": {
+            "value": "kk"
+        },
+        "oidcUserIdentityName": {
+            "value": "webpom-id-a170"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "linuxFxVersion": {
+            "value": "JAVA|17-java17"
+        }
+    }
+}
